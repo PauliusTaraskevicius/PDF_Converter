@@ -8,7 +8,7 @@ function Navigation() {
   return (
     <nav className="background-color h-20">
       <div className="mx-auto px-4">
-        <div className="flex justify-between md:justify-around">
+        <div className="flex justify-between sm:justify-around">
           {/* <!-- logo --> */}
           <div className="flex items-center py-5">
             <Image
@@ -27,7 +27,7 @@ function Navigation() {
               src="/../public/images/ic_search_file.png"
             />
             <div className="flex md:flex">
-              <h1 className="text-white text-xl font-semibold leading-8">
+              <h1 className="text-white text-sm md:text-xl font-semibold leading-8">
                 Online PDF Converter
               </h1>
             </div>

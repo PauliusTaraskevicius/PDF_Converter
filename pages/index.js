@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      {/* <h1 className="">Hello World!</h1>
-      <Footer /> */}
+      <h1 className="flex justify-center">Hello World!</h1>
+      <Footer />
     </>
   );
 }
