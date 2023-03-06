@@ -1,7 +1,12 @@
+import Navigation from "@/components/ui/navigation";
+import Footer from "@/components/ui/footer";
+
 export default function Home() {
   return (
     <>
-      <h1 className="">Hello World!</h1>
+      <Navigation />
+      {/* <h1 className="">Hello World!</h1>
+      <Footer /> */}
     </>
   );
 }
