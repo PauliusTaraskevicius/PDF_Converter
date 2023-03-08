@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="absolute bottom-0 left-0 right-0 background-color h-auto md:h-20">
+    <footer className="absolute bottom-0 w-full background-color md:h-20">
       <div className="mx-auto px-4 my-2">
         <div className="flex flex-col sm:flex-row sm:justify-around my-5">
           {/* <!-- logo --> */}

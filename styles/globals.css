@@ -20,5 +20,22 @@ body {
 }
 
 .background-color {
-  background-color: rgb(2, 48, 71)
+  background-color: #023047;
+}
+
+.primary-color {
+  color: #023047;
+}
+
+.secondary-color {
+  color: #f1732c;
+}
+
+.btn-bg-color {
+  background-color: #f1732c;
+  color: #023047;
+}
+
+.btn-bg-color:hover {
+  background-color: #f28141;
 }
