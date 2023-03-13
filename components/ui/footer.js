@@ -15,7 +15,7 @@ function Footer() {
                 width="24"
                 height="24"
                 alt="logo"
-                src="/../public/images/facebook.png"
+                src="/images/facebook.png"
               />
             </a>
             <a
@@ -26,7 +26,7 @@ function Footer() {
                 width="24"
                 height="24"
                 alt="logo"
-                src="/../public/images/linkedin.png"
+                src="/images/linkedin.png"
               />
             </a>
             <a href="https://github.com/PauliusTaraskevicius" target="_blank">
@@ -34,7 +34,7 @@ function Footer() {
                 width="24"
                 height="24"
                 alt="logo"
-                src="/../public/images/github.png"
+                src="/images/github.png"
               />
             </a>
             <a href="https://portfolio-paulius.netlify.app/" target="_blank">
@@ -42,7 +42,7 @@ function Footer() {
                 width="24"
                 height="24"
                 alt="logo"
-                src="/../public/images/user.png"
+                src="/images/user.png"
               />
             </a>
           </div>

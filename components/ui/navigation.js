@@ -15,7 +15,7 @@ function Navigation() {
               width="49"
               height="43"
               alt="logo"
-              src="/../public/images/ic_pdf_file.png"
+              src="/images/ic_pdf_file.png"
             />
           </div>
 
@@ -24,7 +24,7 @@ function Navigation() {
               width="49"
               height="43"
               alt="logo"
-              src="/../public/images/ic_search_file.png"
+              src="/images/ic_search_file.png"
             />
             <div className="flex md:flex">
               <h1 className="text-white text-sm md:text-xl font-semibold leading-8">

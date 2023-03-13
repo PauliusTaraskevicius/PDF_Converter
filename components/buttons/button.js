@@ -21,7 +21,7 @@ function Button({ uploadedImages, handleImageUpload, generatePdfFromImages }) {
               width="12"
               height="12"
               alt="plus"
-              src="/../public/images/plus.png"
+              src="/images/plus.png"
             />
           </div>
           Choose File
