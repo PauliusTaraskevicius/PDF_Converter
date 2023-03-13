@@ -40,3 +40,17 @@ body {
   background-color: #f28141;
 }
 
+.generate-btn {
+  border: #023047;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  color: #023047;
+}
+
+.generate-btn:hover {
+  border: #f1732c;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #f1732c;
+}

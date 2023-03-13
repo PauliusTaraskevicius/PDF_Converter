@@ -7,9 +7,11 @@ export default function Home() {
   return (
     <div className="relative min-h-screen">
       <Navigation />
-      <Hero />
+      <div className="bg-gray-200 ">
+        <Hero />
+        <ImagesGrid />
+      </div>
       <Footer />
-      <ImagesGrid />
     </div>
   );
 }
