@@ -7,7 +7,10 @@ function Footer() {
         <div className="flex flex-col sm:flex-row sm:justify-around my-5">
           {/* <!-- logo --> */}
           <div className="flex justify-center items-center space-x-2">
-            <a href="#">
+            <a
+              href="https://www.facebook.com/paulius.taraskevicius"
+              target="_blank"
+            >
               <Image
                 width="24"
                 height="24"
@@ -15,7 +18,10 @@ function Footer() {
                 src="/../public/images/facebook.png"
               />
             </a>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/paulius-tara%C5%A1kevi%C4%8Dius-916b83234/"
+              target="_blank"
+            >
               <Image
                 width="24"
                 height="24"
@@ -23,7 +29,7 @@ function Footer() {
                 src="/../public/images/linkedin.png"
               />
             </a>
-            <a href="#">
+            <a href="https://github.com/PauliusTaraskevicius" target="_blank">
               <Image
                 width="24"
                 height="24"
@@ -31,7 +37,7 @@ function Footer() {
                 src="/../public/images/github.png"
               />
             </a>
-            <a href="#">
+            <a href="https://portfolio-paulius.netlify.app/" target="_blank">
               <Image
                 width="24"
                 height="24"
@@ -39,7 +45,6 @@ function Footer() {
                 src="/../public/images/user.png"
               />
             </a>
-            
           </div>
 
           <div className="flex flex-col items-center py-2">

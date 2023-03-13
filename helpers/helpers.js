@@ -3,8 +3,8 @@ import jsPDF from "jspdf";
 const A4_PAPER_DIMENSIONS = {
   //   width: 210,
   //   height: 297,
-  width: 612,
-  height: 792,
+  width: 600,
+  height: 900,
 };
 
 const A4_PAPER_RATIO = A4_PAPER_DIMENSIONS.width / A4_PAPER_DIMENSIONS.height;
@@ -58,7 +58,7 @@ export const fileToImageURL = (file) => {
 
 export const generatePdfFromImages = (images) => {
   const doc = new jsPDF({
-    orientation: "l",
+    orientation: "p",
     unit: "pt",
     format: [A4_PAPER_DIMENSIONS.width, A4_PAPER_DIMENSIONS.height],
   });
@@ -75,8 +75,8 @@ export const generatePdfFromImages = (images) => {
     doc.addImage(
       image.src,
       image.imageType,
-      A4_PAPER_DIMENSIONS.width * 0.2,
-      A4_PAPER_DIMENSIONS.height * 0.2
+      A4_PAPER_DIMENSIONS.width * 0.1,
+      A4_PAPER_DIMENSIONS.height * 0.1
       //   (A4_PAPER_DIMENSIONS.width - imageDimensions.width) / 2,
       //   (A4_PAPER_DIMENSIONS.height - imageDimensions.height) / 2,
       //   imageDimensions.width,
